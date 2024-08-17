@@ -1,6 +1,8 @@
 <script>
     import { goto } from "$app/navigation";
     import { totalItems } from "../routes/cart/cart.js";
+    import { base } from '$app/paths';
+
 
     // Total number of products in the cart
     let itemCount = 0;
@@ -11,7 +13,7 @@
     });
 
     function navigateToCart() {
-        goto("/cart");
+        goto(`${base}/cart`);
     }
 </script>
 
