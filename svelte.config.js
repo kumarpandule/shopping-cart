@@ -5,7 +5,7 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 const config = {
   kit: {
     adapter: adapter({
-      strict: false
+      fallback: '200.html' // This will serve 200.html for all routes
     }),
     paths: {
       base: process.env.NODE_ENV === 'production' ? '/shopping-cart' : ''
