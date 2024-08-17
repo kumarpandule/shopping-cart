@@ -9,13 +9,6 @@ const config = {
     }),
     paths: {
       base: process.env.NODE_ENV === 'production' ? '/shopping-cart' : ''
-    },
-    prerender: {
-      handleHttpError: ({ status, path, referrer, referenceType }) => {
-        if (status === 404) {
-          return { redirect: `${base}/404.html` };
-        }
-      }
     }
   },
   preprocess: vitePreprocess()
