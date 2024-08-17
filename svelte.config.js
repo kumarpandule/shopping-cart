@@ -7,6 +7,13 @@ const config = {
     adapter: adapter(),
     paths: {
       base: process.env.NODE_ENV === 'production' ? '/your-repo-name' : ''
+    },
+    prerender: {
+      handleHttpError: ({ status, path, referrer, referenceType }) => {
+        if (status === 404) {
+          return { redirect: `${base}/404.html` };
+        }
+      }
     }
   },
   preprocess: vitePreprocess()

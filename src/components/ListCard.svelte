@@ -1,6 +1,6 @@
 <script>
     import { updateCart } from "../routes/cart/cart"
-
+    import { base } from '$app/paths';
     export let id = 'boat-watch'
     export let name = 'Unknown'
     export let price = 0.00
@@ -27,7 +27,7 @@
 
 <article class="max-w flex shadow-xm">
     <section class="w-1/4">
-        <img class="m-0 h-18 md:h-28 lg:h-32 object-cover" alt={id} src={`/images/${id}.png`}>
+        <img class="m-0 h-18 md:h-28 lg:h-32 object-cover" alt={id} src={`${base}/images/${id}.png`}>
     </section>
     <section class="basis-3/4 flex flex-col justify-between py-4">
         <p>{name}</p>
