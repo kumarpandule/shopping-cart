@@ -1,0 +1,63 @@
+[
+    {
+        "id": "boat-wave-elevate",
+        "name": "boAt Wave Elevate Smart Watch",
+        "price": 753.00,
+        "img": ""
+    },
+    {
+        "id": "google-pixel-watch-2",
+        "name": "Google Pixel Watch 2",
+        "price": 35990.00,
+        "img": ""
+    },    {
+        "id": "oneplus-watch-2",
+        "name": "Oneplus Watch 2",
+        "price": 14999.00,
+        "img": ""
+    },
+    {
+        "id": "apple-watch-series-5",
+        "name": "Apple Watch Series 5",
+        "price": 52900.00,
+        "img": ""
+    },
+    {
+        "id": "apple-watch-se",
+        "name": "Apple Watch SE",
+        "price": 27499.00,
+        "img": ""
+    },
+    {
+        "id": "samsung-galaxy-watch-4",
+        "name": "Samsung Galaxy Watch 4",
+        "price": 8999.00,
+        "img": ""
+    },
+    {
+        "id": "samsung-galaxy-watch-3",
+        "name": "Samsung Galaxy Watch 3",
+        "price": 24990.00,
+        "img": ""
+    },
+    {
+        "id": "samsung-galaxy-watch-active-2",
+        "name": "Samsung Galaxy Watch Active 2",
+        "price": 19990.00,
+        "img": ""
+    },
+    {
+        "id": "mi-watch-revolve",
+        "name": "Mi Watch Revolve",
+        "price": 9999.00,
+        "img": ""
+    },
+    {
+        "id": "mi-watch-revolve-active",
+        "name": "Mi Watch Revolve Active",
+        "price": 9999.00,
+        "img": ""
+    }
+    
+
+]
